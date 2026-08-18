@@ -1,0 +1,19 @@
+# .NET
+backend/src/**/bin/
+backend/src/**/obj/
+backend/src/**/*.user
+backend/src/**/.vs/
+*.dll
+*.pdb
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.env*.local
+
+# Docker volumes
+postgres_data/
+
+# OS
+.DS_Store
+Thumbs.db
